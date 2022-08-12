@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Frontend Mentor - Interactive pricing component solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Acknowledgments](#acknowledgments)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Use the slider and toggle to see prices for different page view numbers
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./pricing_component.jpg)
+Above is a screeshot of the Interactive Pricving Component
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![].(./React_pricing_component_task.mp4)
+Above is a video of how the pricing component works.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Solution URL: https://github.com/dxn1310/invsto_task
+- Live Site URL: https://dxn1310.github.io/invsto_task/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## My process
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- Bootstrap
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### What I learned
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I learnt many new things, like how to properly use flexbox and meadia query in my react app, i also got plenty of practive with reactjs and css. I implemented dark mode first time for the entire webpage. I learnt various new concepts and wish to learn more.
 
-### Code Splitting
+```css
+.bottom-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+@media screen and (max-width: 480px){
+  .bottom-outer{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .bottom-last-component{
+    flex-direction: column;
+  }
+  .bottom-container{
+    flex-direction: column;
+  }
+  label.name{
+    font-size: 80%;
+  }
+  .rchild{
+    margin-top: 1%;
+  }
+  .btn{
+    width: 160%;
+  }
+  .ul-container{
+    width: 70%;
+  }
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Continued development
 
-### Analyzing the Bundle Size
+I want to continue focusing on using flexbox and applications that are compatible with a mobile phone aswell, i also want to focus more of learning the various other hooks that can be used to make my react app better. I will also like to focus more on dark mode and try adding dark mode in my future projects for practice.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Useful resources
 
-### Making a Progressive Web App
+- [Bootstrap](https://getbootstrap.com/)
+- [npm reactjs](https://www.npmjs.com/package/react)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+During the project development, i got plenty of help and support from my friends who debugged my code when i got errors, They also helped me learn new things and introduced me to various resources that i can use in the future to make my projects better and more professional.
