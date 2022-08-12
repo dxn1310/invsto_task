@@ -38,7 +38,7 @@ export default function Bottom(props) {
               <label className="name" style ={props.boxc === "light" ? {color: "white"} : {color: "hsl(225, 20%, 60%)"}}>Monthly Billing</label>
               <input type="checkbox" className="checkbox" id="checkbox" onChange={(e) => {setToggle(!toggle)}}/>
 
-              <label for="checkbox" className="label">
+              <label for="checkbox" className="label" style = {toggle ? {backgroundColor: "hsl(174, 86%, 45%)"} : {backgroundColor: "hsl(223, 50%, 87%)"}}>
                 <div className="ball"></div>
               </label>
               <label className="name" style ={props.boxc === "light" ? {color: "white"} : {color: "hsl(225, 20%, 60%)"}}>
