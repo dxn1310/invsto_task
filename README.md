@@ -28,11 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./pricing_component.jpg)
+![](./.jpg)
 Above is a screeshot of the Interactive Pricving Component
-
-![].(./React_pricing_component_task.mp4)
-Above is a video of how the pricing component works.
 
 ### Links
 
