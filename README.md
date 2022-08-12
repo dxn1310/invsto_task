@@ -31,10 +31,13 @@ Users should be able to:
 ![](./pricing_component.jpg)
 Above is a screeshot of the Interactive Pricving Component
 
+![].(./React_pricing_component_task.mp4)
+Above is a video of how the pricing component works.
+
 ### Links
 
-- Solution URL: https://github.com/dxn1310/invsto_intern_task/tree/main/task
-- Live Site URL: https://dxn1310.github.io/invsto_intern_task/
+- Solution URL: https://github.com/dxn1310/invsto_task
+- Live Site URL: https://dxn1310.github.io/invsto_task/
 
 ## My process
 
@@ -96,4 +99,4 @@ I want to continue focusing on using flexbox and applications that are compatibl
 
 ## Acknowledgments
 
-During the project development, i got plenty of help and support from my friends who debugged my code and i got errors, They also helped me learn new things and introduced ti various resources that i can use in the future to make my projects better and more professional.
+During the project development, i got plenty of help and support from my friends who debugged my code when i got errors, They also helped me learn new things and introduced me to various resources that i can use in the future to make my projects better and more professional.
