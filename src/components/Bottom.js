@@ -60,7 +60,7 @@ export default function Bottom(props) {
             <li><img src={iconcheck} className="ic"/> &nbsp; Email reports</li>
           </ul>
         </div>
-        <div className='btnbtn'>
+        <div className='btn-div'>
           <input type="button" value="Start my trail" className='btn'/>
         </div>
       </div>
