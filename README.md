@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./.jpg)
+![](./pricing_component_task.jpg)
 Above is a screeshot of the Interactive Pricving Component
 
 ### Links
@@ -51,7 +51,7 @@ Above is a screeshot of the Interactive Pricving Component
 
 ### What I learned
 
-I learnt many new things, like how to properly use flexbox and meadia query in my react app, i also got plenty of practive with reactjs and css. I implemented dark mode first time for the entire webpage. I learnt various new concepts and wish to learn more.
+I learnt many new things, like how to properly use flexbox and media query in my react app, i also got plenty of practice with reactjs and css. I implemented dark mode first time for the entire webpage. I learnt various new concepts and wish to learn more.
 
 ```css
 .bottom-container{
